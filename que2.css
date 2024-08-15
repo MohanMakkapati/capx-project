@@ -1,0 +1,79 @@
+
+body{
+    background-color: rgb(66, 65, 65);
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cap{
+    color: orange;
+    font-size:400%;
+}
+.x{
+    color: green;
+    font-family: roboto;
+}
+.block{
+   
+    background-color:black;
+}
+.skip{
+    display:block ;
+     color: black;
+     height: auto;
+}
+.cross{
+    text-align: end;
+    padding-right: 10px;
+   
+}
+.button,.inf{
+    color: whitesmoke;
+    background-color: inherit;
+}
+.content{
+    display:grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+.info{
+    font-size: xx-large;
+    padding-top:10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-family: oswald;
+}
+.option{
+    border:2px solid rgb(145, 115, 58);
+    background-color:rgb(66, 65, 65);
+    color: white;
+    border-radius: 12px;
+    height: 55px;
+    width: 300px;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+}
+.option:hover{
+    background-color: orange;
+}
+.formoption{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+@media (max-width:1200px){
+    .content{
+        grid-template-columns: 1fr;
+    }
+}
+.submit{
+    margin-top: 10px;
+    height:50px;
+    width: 250px;
+    background-color: orange;
+    color: white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="capx.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script type="text/javascript" src="capx.js">
+    </Script>
+    </head>
+<body>
+    <div class="header">
+        <div class="subheader">
+           <div class="image">
+             <h1 class="cap">cap<span class="x">X</span></h1>
+            </div>         
+            <div class="wishlist">
+              <button   class="button" type="submit">join waitlist</button>
+            </div>
+            <div class="list">
+              <i class="fa-solid fa-bars" style="color:orange;" onclick="opennav()" ></i>
+            </div>
+        </div>
+    </div>
+    <div class="side-nav" id="menu">
+        <a href="" class="closebtn" onclick="closenav()" >&times;</a>
+        <center>
+        <h1>Have you ever <span>engaged</span> in <span> high frequency</span> trading stratagies</h1>
+        <h3 id="printa1"></h3>
+        <script>
+            var a1 = localStorage.getItem('answer1');
+            if (a1) {
+            document.getElementById('printa1').textContent = a1;
+            } else {
+            document.getElementById('printa1').textContent = 'Hello, Guest!';
+            }
+       </script>
+          <h1>Which of these problem has affected you most?</h1>
+          <h3 id="printa2"></h3>
+          <script>
+            var a1 = localStorage.getItem('answer2');
+            if (a1) {
+            document.getElementById('printa2').textContent = a1;
+            } else {
+            document.getElementById('printa2').textContent = 'Hello, Guest!';
+            }
+       </script>
+         </center>
+        
+    </div>
+    <center class="main">
+    <div class="discribe" >
+        <h1 style="color: beige;font-size: 100px;margin-bottom: 0px;">An AI-Powered Trading Flatform That Works As Your Personal Assistant</h1>
+    </div>
+    <div class="subdiscribe">
+        <h4 style="color: rgb(164, 164, 164);font-size: 40px;margin-top: 0px;">research to investing,all-in-one place</h4>
+    </div>
+    </center>
+</body>
+</html>

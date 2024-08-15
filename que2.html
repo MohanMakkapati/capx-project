@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="que2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="capx.js">
+    </Script>
+</head>
+<body>
+    <script>
+        localStorage.setItem('answer2','not responded');
+    </script>
+         <center>
+            <h1 class="cap">cap<span class="x">X</span></h1>
+        </center> 
+            <div class="block">
+                <div class="skip">
+                    <h1 class="cross"><button class="button"  onclick="document.location='capx.html'">&#10005</button></h1>
+                </div>
+                <div class="content">
+                      <div class="info">
+                        <h1 class="inf">Which of these problem has affected you most?</h1>
+                      </div>
+                      <div class="que">
+                            <div class="formoption">
+                             <div><input type="button" class="option" name="choice1" id="option1" onclick="fun('option1')" value="Too much noise in the market distracts you from the correct information"></div>
+                             <div><input type="button" class="option" name="choice2" id="option2" onclick="fun('option2')" value="Making rash decisions or quit the stock market due to lack of time Trading seems too complex and no clear trusted learning path to get started"></div>
+                             <div><input type="button" class="option" name="choice3" id="option3" onclick="fun('option3')" value="Suffering too much losses in the market"></div>
+                             <div><input type="button" class="option" name="choice4" id="option4" onclick="fun('option4')" value="Knowledge gap in understanding the basic trading terms"></div>
+                             <div><input type="button" class="option" name="choice5" id="option5" onclick="fun('option5')" value="Making rash decisions or quit the stock market due to lack of time"></div>
+                             <div><input type="button" class="option" name="choice6" id="option6" onclick="fun('option6')" value="Don't know why you are making or losing money"></div>
+                            </div>
+                            <div >
+                                <center>
+                                <button class="submit"  id="submit" value="submit" onclick="fun('submit')">submit</button>
+                                </center>
+                               
+                            </div>
+                      </div>
+                </div>
+            </div>      
+</body>
+</html>

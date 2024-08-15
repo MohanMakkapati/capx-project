@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    position:static;
+    column-gap: 30px;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+.image{
+    align-content: center;
+}
+.cap{
+    color: orange;
+    font-size:200%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.x{
+    color: green;
+    font-family: roboto;
+}
+.wishlist{
+ align-content: center;
+}
+.list{
+    align-content: center;
+}
+.subheader{
+    background-color: rgb(32, 31, 31);
+    border:solid;
+    border-radius: 12px;
+    display:flex;
+    flex-direction: row;
+    position:static;
+    column-gap: 30px;
+    justify-content: center;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.button{
+    background-color: orange;
+     height: 30px;
+     width: 90px;
+     border:solid;
+     border-radius: 12px;
+}
+.button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.discribe{
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.side-nav{
+      height:100%;
+      width:0;
+      position:fixed;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      background-color: grey;
+      overflow-x: hidden;
+      transition:0.3s;
+      padding-top: 60px;
+}
+.side-nav .closebtn{
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      color: white;
+}
+span{
+    color: orange;
+}
